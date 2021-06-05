@@ -89,7 +89,7 @@ return 0;<br>
 return false;<br>
 }<br>
 
-</i>public boolean isSpare(int frame)<br></i>
+<i>public boolean isSpare(int frame)<br></i>
 {<br>
 return false;<br>
 }<br>
