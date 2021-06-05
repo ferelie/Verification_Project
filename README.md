@@ -6,7 +6,7 @@ system consists of a sensor that determines how many pins a bowler has knocked
 down, a class that keeps track of a bowler’s results, and a display system that shows
 bowlers’ scores. Right now, you are working on the BowlingGame class, which
 records and stores a single player’s scores through a bowling game.
-Here are some things you might need to know about the game of bowling:
+Here are some things you might need to know about the game of bowling: <br>
 A) A bowling game consists of 10 frames. Each frame contains one set of 10 pins,
 which the bowler tries to knock down.
 B) In each frame, a bowler gets to roll the ball (up to) twice, trying to knock down the
