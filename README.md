@@ -93,3 +93,28 @@ public boolean isSpare(int frame)
 return false;
 }
 }
+
+Next, you will find a JUnit test class that can be used to test the BowlingGame class.
+You will need to add more tests to the test class—right now, there is only one test,
+which is not enough to test all the functionality required for the class.
+You can add JUnit test cases to this test class for the BowlingGame class. How many
+tests do you think you should add to be reasonably confident that the BowlingGame
+class is working correctly?
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class BowlingGameTest
+
+{
+public BowlingGameTest()
+{
+}
+
+@Test
+public void testStartGame()
+{
+BowlingGame g = new BowlingGame();
+assertEquals(1, g.getCurrentFrame());
+assertEquals(1, g.getCurrentBall());
+}
+}
