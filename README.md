@@ -8,16 +8,16 @@ bowlers’ scores. Right now, you are working on the BowlingGame class, which
 records and stores a single player’s scores through a bowling game.
 Here are some things you might need to know about the game of bowling: <br>
 A) A bowling game consists of 10 frames. Each frame contains one set of 10 pins,
-which the bowler tries to knock down.
+which the bowler tries to knock down. <br>
 B) In each frame, a bowler gets to roll the ball (up to) twice, trying to knock down the
-pins.
+pins.<br>
 C) If the bowler knocks down all 10 pins with the first ball, this is a strike. The
-bowler does not roll a second ball that frame, since no pins remain standing.
- Otherwise, the bowler rolls a second ball, trying to knock down any pins not
+bowler does not roll a second ball that frame, since no pins remain standing.<br>
+D) Otherwise, the bowler rolls a second ball, trying to knock down any pins not
 knocked down by the first ball. If the bowler knocks down all the remaining pins
-with the second ball, this is called a spare.
-D) If any pins remain standing after two balls, then the bowler moves to the next
-frame anyway.
+with the second ball, this is called a spare.<br>
+E) If any pins remain standing after two balls, then the bowler moves to the next
+frame anyway.<br> <br>
 
 The tenth frame has special rules:
 A) In some cases, the bowler is allowed to bowl three balls in the tenth frame.
