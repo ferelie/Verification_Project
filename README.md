@@ -1,5 +1,5 @@
 # BowlingGame
-A BowlingGame Class in Java with it's JUnit test class.
+<h2> A BowlingGame Class in Java with it's JUnit test class. </h2>
 
 You are designing software for an automatic scoring system in a bowling alley. This
 system consists of a sensor that determines how many pins a bowler has knocked
@@ -20,16 +20,16 @@ E) If any pins remain standing after two balls, then the bowler moves to the nex
 frame anyway.<br> <br>
 
 The tenth frame has special rules:
-A) In some cases, the bowler is allowed to bowl three balls in the tenth frame.
+A) In some cases, the bowler is allowed to bowl three balls in the tenth frame.<br>
 B) If the bowler gets a spare in the tenth frame, then the pins are reset and the
-bowler gets to bowl one extra ball (still within the tenth frame) for extra points.
+bowler gets to bowl one extra ball (still within the tenth frame) for extra points.<br>
 C) If the bowler gets a strike in the tenth frame, then the pins are reset and the
 bowler gets to bowl two extra balls at those pins. If the bowler gets another
 strike, the pins are reset again for the bowler’s third (and final) ball. If the
 second ball is not a strike, though, the pins are not reset, and the bowler’s third
-ball aims only at whatever pins were not knocked down by the second ball.
+ball aims only at whatever pins were not knocked down by the second ball.<br>
 D) If the bowler does not get a strike or spare in the tenth frame, then the bowler
-gets no extra balls and the game is over.
+gets no extra balls and the game is over.<br><br>
 
 Based on these rules, the BowlingGame class needs to include the following methods:
 1) A method called getCurrentFrame, which returns the frame that the player is in.
@@ -59,24 +59,24 @@ A skeleton version of the BowlingGame class is given below. Note that none of th
 class’ method bodies have been written yet. You will fill in the methods for this class
 later, after creating some tests for the methods.
 public class BowlingGame
-{
+{<br>
 public BowlingGame()
-{
+{<br>
 }
-
+<br>
 public int getCurrentFrame()
-{
-return 0;
-}
+{<br>
+return 0;<br>
+}<br>
 
-public int getCurrentBall()
-{
-return 0;
-}
+public int getCurrentBall()<br>
+{<br>
+return 0;<br>
+}<br>
 
-public void scoreBall(int pins)
-{
-}
+public void scoreBall(int pins)<br>
+{<br>
+}<br>
 
 public int getBallScore(int frame, int ball)
 {
