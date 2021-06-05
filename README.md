@@ -1,5 +1,6 @@
 # BowlingGame
 A BowlingGame Class in Java with it's JUnit test class.
+
 You are designing software for an automatic scoring system in a bowling alley. This
 system consists of a sensor that determines how many pins a bowler has knocked
 down, a class that keeps track of a bowler’s results, and a display system that shows
