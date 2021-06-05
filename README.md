@@ -1,5 +1,3 @@
-[Map 1.pdf](https://github.com/salmayasserahmed/BowlingGame/files/6603130/Map.1.pdf)
-![coral2](https://user-images.githubusercontent.com/70496209/120903289-a5b3d000-c645-11eb-8bdb-cc3da4073bdf.png)
 # BowlingGame
 A BowlingGame Class in Java with it's JUnit test class.
 
