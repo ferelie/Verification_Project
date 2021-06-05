@@ -61,35 +61,35 @@ later, after creating some tests for the methods.
 <br><br>
 <i>public class BowlingGame</i>
 {<br>
-public BowlingGame()
+<i>public BowlingGame()</i>
 {<br>
 }
 <br>
-public int getCurrentFrame()
+<i>public int getCurrentFrame()</i>
 {<br>
 return 0;<br>
 }<br>
 
-public int getCurrentBall()<br>
+<i>public int getCurrentBall()<br></i>
 {<br>
 return 0;<br>
 }<br>
 
-public void scoreBall(int pins)<br>
+<i>public void scoreBall(int pins)<br></i>
 {<br>
 }<br>
 
-public int getBallScore(int frame, int ball)<br>
+<i>public int getBallScore(int frame, int ball)<br></i>
 {<br>
 return 0;<br>
 }<br>
 
-public boolean isStrike(int frame)<br>
+<i>public boolean isStrike(int frame)<br></i>
 {<br>
 return false;<br>
 }<br>
 
-public boolean isSpare(int frame)<br>
+</i>public boolean isSpare(int frame)<br></i>
 {<br>
 return false;<br>
 }<br>
