@@ -78,43 +78,42 @@ public void scoreBall(int pins)<br>
 {<br>
 }<br>
 
-public int getBallScore(int frame, int ball)
-{
-return 0;
-}
+public int getBallScore(int frame, int ball)<br>
+{<br>
+return 0;<br>
+}<br>
 
-public boolean isStrike(int frame)
-{
-return false;
-}
+public boolean isStrike(int frame)<br>
+{<br>
+return false;<br>
+}<br>
 
-public boolean isSpare(int frame)
-{
-return false;
-}
-}
+public boolean isSpare(int frame)<br>
+{<br>
+return false;<br>
+}<br>
+}<br>
 
-Next, you will find a JUnit test class that can be used to test the BowlingGame class.
-You will need to add more tests to the test class—right now, there is only one test,
-which is not enough to test all the functionality required for the class.
-You can add JUnit test cases to this test class for the BowlingGame class. How many
-tests do you think you should add to be reasonably confident that the BowlingGame
-class is working correctly?
-import org.junit.Test;
-import static org.junit.Assert.*;
+Next, you will find a JUnit test class that can be used to test the BowlingGame class.<br>
+You will need to add more tests to the test class—right now, there is only one test,<br>
+which is not enough to test all the functionality required for the class.<br>
+You can add JUnit test cases to this test class for the BowlingGame class. How many<br>
+tests do you think you should add to be reasonably confident that the BowlingGame<br>
+class is working correctly?<br>
+import org.junit.Test;<br>
+import static org.junit.Assert.*;<br>
 
-public class BowlingGameTest
+public class BowlingGameTest<br>
+{<br>
+public BowlingGameTest()<br>
+{<br>
+}<br>
 
-{
-public BowlingGameTest()
-{
-}
-
-@Test
-public void testStartGame()
-{
-BowlingGame g = new BowlingGame();
-assertEquals(1, g.getCurrentFrame());
-assertEquals(1, g.getCurrentBall());
-}
-}
+@Test<br>
+public void testStartGame()<br>
+{<br>
+BowlingGame g = new BowlingGame();<br>
+assertEquals(1, g.getCurrentFrame());<br>
+assertEquals(1, g.getCurrentBall());<br>
+}<br>
+}<br>
