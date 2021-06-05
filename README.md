@@ -94,12 +94,12 @@ return false;<br>
 }<br>
 }<br>
 
-Next, you will find a JUnit test class that can be used to test the BowlingGame class.<br>
-You will need to add more tests to the test class—right now, there is only one test,<br>
-which is not enough to test all the functionality required for the class.<br>
-You can add JUnit test cases to this test class for the BowlingGame class. How many<br>
-tests do you think you should add to be reasonably confident that the BowlingGame<br>
-class is working correctly?<br>
+Next, you will find a JUnit test class that can be used to test the BowlingGame class.
+You will need to add more tests to the test class—right now, there is only one test,
+which is not enough to test all the functionality required for the class.
+You can add JUnit test cases to this test class for the BowlingGame class. How many
+tests do you think you should add to be reasonably confident that the BowlingGame
+class is working correctly?
 import org.junit.Test;<br>
 import static org.junit.Assert.*;<br>
 
