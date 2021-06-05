@@ -19,7 +19,7 @@ with the second ball, this is called a spare.<br>
 E) If any pins remain standing after two balls, then the bowler moves to the next
 frame anyway.<br> <br>
 
-The tenth frame has special rules:
+<h3>The tenth frame has special rules:</h3>
 A) In some cases, the bowler is allowed to bowl three balls in the tenth frame.<br>
 B) If the bowler gets a spare in the tenth frame, then the pins are reset and the
 bowler gets to bowl one extra ball (still within the tenth frame) for extra points.<br>
