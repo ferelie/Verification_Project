@@ -58,7 +58,8 @@ spare was scored in the given frame.
 A skeleton version of the BowlingGame class is given below. Note that none of the
 class’ method bodies have been written yet. You will fill in the methods for this class
 later, after creating some tests for the methods.
-public class BowlingGame
+<br><br>
+<i>public class BowlingGame</i>
 {<br>
 public BowlingGame()
 {<br>
