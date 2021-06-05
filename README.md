@@ -100,7 +100,8 @@ You will need to add more tests to the test class—right now, there is only one
 which is not enough to test all the functionality required for the class.
 You can add JUnit test cases to this test class for the BowlingGame class. How many
 tests do you think you should add to be reasonably confident that the BowlingGame
-class is working correctly?
+class is working correctly? 
+<br><br>
 import org.junit.Test;<br>
 import static org.junit.Assert.*;<br>
 
