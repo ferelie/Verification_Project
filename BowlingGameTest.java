@@ -27,6 +27,7 @@ class BowlingGameTest {
     void getBallScore() {
         var ball = new BowlingGame();
         assertEquals(0, ball.getBallScore(1,15));
+
     }
 
     @org.junit.jupiter.api.Test
